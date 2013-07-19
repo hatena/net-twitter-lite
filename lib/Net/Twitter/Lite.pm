@@ -1873,7 +1873,7 @@ my $api_def = [
             base_url_method => 'apiurl',
         } ],
         [ 'user_suggestions', {
-            aliases         => [ qw/follow_suggestions/ ],
+            aliases         => [ qw/follow_suggestions_members/ ],
             path            => 'users/suggestions/:category/members',
             method          => 'GET',
             params          => [ qw/category lang/ ],
